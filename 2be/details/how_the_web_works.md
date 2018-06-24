@@ -15,37 +15,70 @@ Review the materials below.
 Now we have a better grasp about the internet, and how some of the things are working. Now, let's answer a few questions to check our understanding. Don't be afraid to do additional research (googleing) for an answer. Fork this gist and answer the following questions:
 
 1. Describe, step by step, what happens when I type `www.example.com` into my browser and try to go to the page?
+
+Your computer attempts to access www.example.com., starting by going to the root servers (.), and then to the top level domain, and possibly the second level domain, before reaching the authoritative name servers for the domain name 'example.com'.  
+
 1.  What does HTTP stand for?
+
+Hypertext Transfer Protocol
+
 1. 	What protocol does the World Wide Web use?
+
+HTTP
+
 1. 	Each computer on the Internet is assigned an IP address, what does IP stand for?
+
+Internet Protocol
+
 1. 	What does DNS stand for?
-  * A. Domain Name System
+  * A. Domain Name System - this one
   * B. Digital Number System
   * C. Domain Number System
   * D. Domain Name Service
   * E. Digital Name Service
+
 1. 	How are text domain names matched to their respective numeric IP addresses.
+
+The DNS designates authoritative name servers that are responsible for knowing what the proper IP address is for their domains.
+
 1. 	What is the client?
   * A. A purchaser
   * B. Internet shopping customer (Consumer)
   * C. The software which requests information from a server (browser)
   * D. The server to which a particular computer sends data
-  * E. The computer which the IP address belongs to
+  * E. The computer which the IP address belongs to - this one
+
 1. 	What does URL stand for?
+
+Uniform Resource Locator
+
 1. 	What are protocols
  * A. The standardisation of IP addressess
  * B. The DNS standard method for data transfer
  * C.	The standardised network address system
- * D.	The standardised method for transferring data or documents over a network
+ * D.	The standardised method for transferring data or documents over a network - this one
  * E.	The standardised method for prioratising data or document storage over a network
+
 1. What does DNS stand for?
+
+Domain Name System
+
 1. what is the `www` portion of a url?
+
+A subdomain.
+
 1. What is The markup language used for all web documents?
+
+HTML (hypertext markup language)
+
 1. What is the organization that monitors web technologies?
+
+W3C.  World Wide Web Consortium.
+
 1. What is the Protocol for transferring web documents on the Internet?
+
+FTP.  File Transfer Protocol.
+
 1. What matches the domain names with numeric IP addresses?
 
-
-
-
-
+The DNS through the authoritative name servers.
